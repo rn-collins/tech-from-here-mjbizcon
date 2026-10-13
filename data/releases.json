@@ -1,0 +1,66 @@
+{
+  "about": "The only record the build reads to decide what is public. A piece is public when releasedAt (a date in Pacific/Honolulu, YYYY-MM-DD) is today or earlier and hold is false. Empty releasedAt means unreleased. Fill dates only from a real posting record. Ids are proposed for rn-selected-work, which has no MJBizCon sources pages yet.",
+  "timeZone": "Pacific/Honolulu",
+  "pieces": [
+    {
+      "id": "mjbiz/s01",
+      "title": "Nevada Put Medical Cannabis in Its Constitution",
+      "releasedAt": "",
+      "hold": true,
+      "postUrls": [],
+      "longFormUrl": "",
+      "sourcePageUrl": "",
+      "note": "Gate 6 first draft only. No posting record."
+    },
+    {
+      "id": "mjbiz/s02",
+      "title": "The Constitutional Protection Without a Storefront",
+      "releasedAt": "",
+      "hold": true,
+      "postUrls": [],
+      "longFormUrl": "",
+      "sourcePageUrl": "",
+      "note": "Gate 6 first draft only. No posting record."
+    },
+    {
+      "id": "mjbiz/s04",
+      "title": "Every Regulated Cannabis Plant Acquires a Data Double",
+      "releasedAt": "",
+      "hold": true,
+      "postUrls": [],
+      "longFormUrl": "",
+      "sourcePageUrl": "",
+      "note": "Draft package (article, LinkedIn post, carousel copy). Not release-ready. No posting record."
+    },
+    {
+      "id": "mjbiz/s07",
+      "title": "Nevada Borrowed Its Cannabis Regulator from the Casino Floor",
+      "releasedAt": "",
+      "hold": true,
+      "postUrls": [],
+      "longFormUrl": "",
+      "sourcePageUrl": "",
+      "note": "Draft package (article, LinkedIn post, carousel copy). Not release-ready. No posting record."
+    },
+    {
+      "id": "mjbiz/s09",
+      "title": "Nevada Reserved Ten Lounge Licenses for Social Equity. Then the Process Kept Going.",
+      "releasedAt": "",
+      "hold": true,
+      "postUrls": [],
+      "longFormUrl": "",
+      "sourcePageUrl": "",
+      "note": "Tech From Here hold since 10 August 2026. No posting record."
+    },
+    {
+      "id": "mjbiz/s10",
+      "title": "In Clark County, Cannabis Regulation Can Reach the Magazine and the Consultant",
+      "releasedAt": "",
+      "hold": true,
+      "postUrls": [],
+      "longFormUrl": "",
+      "sourcePageUrl": "",
+      "note": "Removed from the Tech From Here slate. No posting record."
+    }
+  ]
+}
