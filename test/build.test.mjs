@@ -71,3 +71,8 @@ test('public page text has no em or en dashes and no exclamation points', () => 
     assert.doesNotMatch(text, /[–—!]/, f);
   }
 });
+
+test('every page links back to the RN Collins portfolio', () => {
+  const out = build('2026-10-13');
+  for (const f of ['index.html', '404.html']) assert.match(fs.readFileSync(path.join(out, f), 'utf8'), /href="https:\/\/rn-selected-work\.vercel\.app\/"/, f);
+});
