@@ -21,7 +21,7 @@ const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(
 const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return 'link'; } };
 
 function page({ title, description, body, canonical }) {
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}">${canonical ? `<link rel="canonical" href="${esc(canonical)}">` : ''}<link rel="stylesheet" href="/style.css"></head><body>${body}<footer>RN Collins, Tech From Here · <a href="https://rn-selected-work.vercel.app/">RN Collins, selected work</a></footer></body></html>\n`;
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}">${canonical ? `<link rel="canonical" href="${esc(canonical)}">` : ''}<link rel="stylesheet" href="/style.css"></head><body>${body}<footer>RN Collins, Tech From Here · <a href="https://rn-selected-work.vercel.app/">RN Collins, selected work</a><p><a href="https://github.com/rn-collins/tech-from-here-mjbizcon" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></p></footer></body></html>\n`;
 }
 
 fs.rmSync(out, { recursive: true, force: true });
